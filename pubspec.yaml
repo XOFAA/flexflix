@@ -1,0 +1,35 @@
+name: flexflix
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=2.19.2 <3.0.0'
+
+dependencies:
+  animated_icon_button: ^1.0.2
+  carousel_slider: ^4.2.1
+  dio: ^5.1.1
+  flutter:
+    sdk: flutter
+  flutter_dotenv: ^5.0.2
+  flutter_tabler_icons: ^1.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  fonts:
+  - family: IBM
+    fonts:
+      - asset: assets/fonts/IBMPlexSans-Regular.ttf
+      - asset: assets/fonts/IBMPlexSans-Bold.ttf
+        weight: 700
+      - asset: assets/fonts/IBMPlexSans-Italic.ttf
+        style: italic
+  assets:
+    - .env
+    - assets/logo.png
